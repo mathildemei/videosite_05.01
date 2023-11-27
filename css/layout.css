@@ -1,0 +1,41 @@
+header ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #CE1229;
+}
+
+/*media*/
+iframe {
+    width: 70%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+video {
+    width: 70%;
+    height: auto;
+    display: block;
+}
+
+@media (min-width: 660px) {
+    .grid_1-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+
+    .grid_1-1-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+    }
+}

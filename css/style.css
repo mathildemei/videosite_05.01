@@ -1,0 +1,47 @@
+@font-face {
+    font-family: dmserif_italic;
+    src: url(../fonts/dmserifdisplay-italic-webfont.woff2);
+}
+
+/* Links LoVeHAte */
+a:link {
+    color: #454444;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #454444;
+}
+
+a:hover {
+    color: #ED420F;
+}
+
+a:active {
+    color: #F7C028;
+}
+
+body {
+    font-family: dmserif_italic;
+    background-color: #6CB2F0;
+    color: #454444;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.plakat {
+    max-width: 40%;
+}
+
+h3 {
+    color: #CE1229;
+}
+
+footer {
+    background-color: #B2E7FE;
+    padding: 10px;
+}
